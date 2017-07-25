@@ -8,10 +8,18 @@
         <servlet-name>ParamServlet</servlet-name>
         <servlet-class>zadanie.java.ParamServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>FormularzServlet</servlet-name>
+        <servlet-class>zadanie.java.FormularzServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>ParamServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormularzServlet</servlet-name>
+        <url-pattern>/formularz</url-pattern>
     </servlet-mapping>
 
 </web-app>

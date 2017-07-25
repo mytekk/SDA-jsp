@@ -20,7 +20,7 @@ public class ParamServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.print("<html>");
         out.print("<body>");
-        out.write("<h1>Hello "+request.getParameter("name")+"</h1>");
+        out.write("<h1 style=\"font-family: 'Quicksand', sans-serif;\">Hello "+request.getParameter("name")+"</h1>");
         out.print("</body></html>");
     }
 }
